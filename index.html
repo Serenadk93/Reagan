@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; URL='https://Serenadk93.github.io/dynamic-profile-pic/image1.jpg'">
+    <title>Dynamic Image</title>
+</head>
+<body>
+    <script>
+        var images = [
+            "1.jpg",
+            "222.jpg",
+            "2.jpg",
+          "3.jpg",
+          "342.jpg",
+          "5.jpg",
+          "14.jpg",
+          "7.jpg",
+          "15.jpg",
+            // Add more image filenames as needed
+        ];
+        var randomImage = images[Math.floor(Math.random() * images.length)];
+        window.location.href = `https://your-github-username.github.io/dynamic-profile-pic/${randomImage}`;
+    </script>
+</body>
+</html>
